@@ -4,7 +4,11 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('Hello Hono 2!')
+  return c.text('Hello Hono 3!')
+})
+
+app.get('/posts', (c) => {
+    return c.text('Many posts')
 })
 
 const port = 3000
@@ -14,3 +18,5 @@ serve({
   fetch: app.fetch,
   port
 })
+
+export default app

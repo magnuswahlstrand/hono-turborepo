@@ -1,8 +1,11 @@
 {
   "name": "hono-turborepo",
   "packageManager": "pnpm@9.2.4",
+  "private": true,
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
   },
   "dependencies": {
     "@hono/node-server": "^1.11.2",

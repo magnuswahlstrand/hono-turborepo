@@ -25,6 +25,12 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1
 
+  packages/math:
+    devDependencies:
+      typescript:
+        specifier: latest
+        version: 5.4.5
+
 packages:
 
   '@esbuild/aix-ppc64@0.20.2':
@@ -231,6 +237,11 @@ packages:
     resolution: {integrity: sha512-sJhxfBaN14pYj//xxAG6zAyStkE2j4HI9JVXVMob35SGob6dz/HuSqV/4QlVqw0uKAkwc1lXIsnykbe8RLmOOw==}
     hasBin: true
 
+  typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
@@ -381,5 +392,7 @@ snapshots:
       turbo-linux-arm64: 2.0.1
       turbo-windows-64: 2.0.1
       turbo-windows-arm64: 2.0.1
+
+  typescript@5.4.5: {}
 
   undici-types@5.26.5: {}
