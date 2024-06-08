@@ -1,6 +1,6 @@
 import {serve} from '@hono/node-server'
 import {Hono} from 'hono'
-import add from "math"
+import add from "@magnuswahlstrand/math/add"
 
 const app = new Hono()
 

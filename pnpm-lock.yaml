@@ -30,26 +30,26 @@ importers:
       '@hono/node-server':
         specifier: ^1.11.2
         version: 1.11.2
+      '@magnuswahlstrand/math':
+        specifier: workspace:*
+        version: link:../../packages/math
       hono:
         specifier: ^4.4.2
         version: 4.4.3
-      math:
-        specifier: workspace:*
-        version: link:../../packages/math
     devDependencies:
+      '@magnuswahlstrand/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       '@types/node':
         specifier: ^20.11.17
         version: 20.14.2
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       tsx:
         specifier: ^4.7.1
         version: 4.12.0
 
   packages/math:
     devDependencies:
-      tsconfig:
+      '@magnuswahlstrand/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:

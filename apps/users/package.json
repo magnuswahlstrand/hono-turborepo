@@ -1,5 +1,6 @@
 {
-  "name": "users",
+  "name": "@magnuswahlstrand/users",
+  "type": "module",
   "packageManager": "pnpm@9.2.4",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -11,13 +12,12 @@
   "dependencies": {
     "@hono/node-server": "^1.11.2",
     "hono": "^4.4.2",
-    "math": "workspace:*"
+    "@magnuswahlstrand/math": "workspace:*"
   },
   "exports": [],
   "devDependencies": {
     "@types/node": "^20.11.17",
     "tsx": "^4.7.1",
-    "tsconfig": "workspace:*"
-  },
-  "type": "module"
+    "@magnuswahlstrand/tsconfig": "workspace:*"
+  }
 }
