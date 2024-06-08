@@ -1,5 +1,5 @@
 {
-  "name": "@repo/math",
+  "name": "math",
   "type": "module",
   "scripts": {
     "dev": "tsc --watch",
@@ -12,6 +12,7 @@
     }
   },
   "devDependencies": {
-    "typescript": "latest"
+    "typescript": "latest",
+    "tsconfig": "workspace:*"
   }
 }
