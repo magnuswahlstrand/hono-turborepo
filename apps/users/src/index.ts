@@ -1,19 +1,18 @@
 import {serve} from '@hono/node-server'
-import {Hono} from 'hono'
-import add from "@magnuswahlstrand/math/add"
+import {Context, Hono} from 'hono'
+import add from "@magnuswahlstrand/math"
 
 const app = new Hono()
 
-app.get('/', (c) => {
+app.get('/', (c: Context) => {
     return c.text(`Hello Hono 3! ${add(1, 2)}`)
 })
 
-app.get('/posts', (c) => {
+app.get('/posts', (c: Context) => {
     return c.text('Many posts')
 })
 
 const port = 3000
-console.log(`Server is running on port ${port}`)
 
 serve({
     fetch: app.fetch,

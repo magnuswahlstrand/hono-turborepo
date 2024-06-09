@@ -1,10 +1,13 @@
 {
-  "name": "@magnuswahlstrand/tsconfig",
+  "name": "@magnuswahlstrand/eslint-config",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "echo 'Add dev script here'",
     "build": "echo 'Add build script here'",
     "test": "echo 'Add test script here'"
+  },
+  "devDependencies": {
+    "eslint": "^9.4.0"
   }
 }

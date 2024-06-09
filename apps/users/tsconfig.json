@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/tsconfig.base.json",
+  "extends": "@magnuswahlstrand/tsconfig/tsconfig.base.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src"

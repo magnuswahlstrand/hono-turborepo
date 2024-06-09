@@ -62,6 +62,7 @@ Then `turbo run dev` works with automatic reload ✅
 
 - Start 2x services
 - Run system tests
+- Remove dist?
 
 # Questions
 * Turbo vs pnpm

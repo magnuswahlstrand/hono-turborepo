@@ -12,6 +12,7 @@
     "paths": {
       "@repo/*": ["*"]
     },
-    "baseUrl": "."
+    "baseUrl": ".",
+    "moduleResolution": "node"
   }
 }

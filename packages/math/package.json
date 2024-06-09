@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint ."
   },
   "exports": {
     ".": {
@@ -18,7 +19,8 @@
     }
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@magnuswahlstrand/tsconfig": "workspace:*"
+    "@magnuswahlstrand/tsconfig": "workspace:*",
+    "eslint": "^9.4.0",
+    "typescript": "latest"
   }
 }

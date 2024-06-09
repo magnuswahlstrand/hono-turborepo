@@ -7,17 +7,20 @@
     "check-types": "tsc --noEmit",
     "build": "tsc",
     "test": "tsx --test",
-    "test:watch": "tsx --test --watch"
+    "test:watch": "tsx --test --watch",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@hono/node-server": "^1.11.2",
-    "hono": "^4.4.2",
-    "@magnuswahlstrand/math": "workspace:*"
+    "@magnuswahlstrand/math": "workspace:*",
+    "hono": "^4.4.2"
   },
   "exports": [],
   "devDependencies": {
+    "@magnuswahlstrand/tsconfig": "workspace:*",
+    "@magnuswahlstrand/eslint-config": "workspace:*",
     "@types/node": "^20.11.17",
-    "tsx": "^4.7.1",
-    "@magnuswahlstrand/tsconfig": "workspace:*"
+    "eslint": "^9.4.0",
+    "tsx": "^4.7.1"
   }
 }
